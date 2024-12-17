@@ -11,12 +11,6 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import {
   ArrowLeftRight,
   Copy,
   Github,
@@ -190,7 +184,7 @@ export default function Component() {
               </span>
             </div>
             <div className="flex items-center gap-4">
-              <Link href="https://github.com/subhadeeproy3902/translator">
+              <Link href="https://github.com/subhadeeproy3902/ai-translator">
                 <Button
                   size="icon"
                   className="rounded-full border-transparent bg-transparent hover:bg-secondary/5 shadow-md shadow-primary"
