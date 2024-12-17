@@ -208,7 +208,7 @@ export default function Component() {
             </div>
           </div>
 
-          <div className="flex-grow grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-2 items-stretch">
+          <div className="flex-grow grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-4 items-stretch">
             <div className="flex flex-col gap-4">
               <Select value={inputLanguage} onValueChange={setInputLanguage}>
                 <SelectTrigger className="w-full bg-secondary">
