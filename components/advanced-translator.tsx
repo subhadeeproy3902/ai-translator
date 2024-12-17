@@ -208,7 +208,7 @@ export default function Component() {
             </div>
           </div>
 
-          <div className="flex-grow grid grid-cols-1 md:grid-cols-[1fr,auto,1fr] gap-4 md:gap-2 items-stretch">
+          <div className="flex-grow grid grid-cols-1 md:grid-cols-[1fr,auto,1fr] gap-y-4 md:gap-2 items-stretch">
             <div className="flex flex-col gap-4">
               <Select value={inputLanguage} onValueChange={setInputLanguage}>
                 <SelectTrigger className="w-full bg-secondary">
@@ -261,8 +261,7 @@ export default function Component() {
               </div>
             </div>
 
-            <div className="flex-grow relative grid grid-cols-1 md:grid-cols-2 gap-2 items-stretch">
-              <Button
+            <Button
                 size="icon"
                 variant="outline"
                 disabled={loading}
@@ -271,9 +270,8 @@ export default function Component() {
               >
                 <ArrowLeftRight className="h-5 w-5 text-primary" />
               </Button>
-            </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 col-span-2">
               <Select value={outputLanguage} onValueChange={setOutputLanguage}>
                 <SelectTrigger className="w-full bg-secondary">
                   <SelectValue placeholder="Select language" />
