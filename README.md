@@ -2,6 +2,8 @@
 
 An AI-powered translator leveraging **Meta's M2M model** for many-to-many multilingual translations. Enjoy seamless text and voice translations without relying on external APIs! 🚀
 
+![Yoo](https://i.postimg.cc/MTS25gWL/Screenshot-367.png)
+
 ---
 
 ## ✨ Features
